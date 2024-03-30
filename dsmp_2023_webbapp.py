@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
-"""from sklearn.preprocessing import LabelEncoder""""
+from sklearn.preprocessing import LabelEncoder
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """ """
 st.title('Predicting Electricity Prices at the Alberta Region')
