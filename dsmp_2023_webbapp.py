@@ -30,7 +30,7 @@ for sector_ in list_:
 df['Sector'] = df['Sector'].astype('float')
 """ """
 model = joblib.load('lgbm_model.sav')
-model.set_params(n_classes=1)
+model.set_params(n_classes=2)
 
 """ """
 preds = model.predict(df.values)
