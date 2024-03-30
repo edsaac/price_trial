@@ -8,8 +8,7 @@ from sklearn.preprocessing import LabelEncoder
 st.title('Predicting Electricity Prices at the Alberta Region')
 st.markdown('This app allows predicting Electricty prices for the Alberta region considering the "Residential", "Commercial" and the "Industrial" Sectors.')
 """ """
-path_files = "/content/drive/MyDrive/2023_DSMP_Project/WebApp - StreamLit"
-data = pd.read_csv(path_files + '/' + 'df_.csv')
+data = pd.read_csv('df_.csv')
 # Get column names
 column_names = list(data.columns)[1:-1]
 
